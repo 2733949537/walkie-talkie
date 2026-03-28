@@ -1,0 +1,17 @@
+{
+  "name": "walkie-talkie-signaling-server",
+  "version": "1.0.0",
+  "description": "实时对讲小程序信令服务器",
+  "main": "signaling-server.js",
+  "scripts": {
+    "start": "node signaling-server.js",
+    "dev": "nodemon signaling-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
